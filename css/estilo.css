@@ -1,0 +1,270 @@
+/* globales */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    width: 104%;
+}
+
+.body {
+    width: 100%;
+    display: inline-block;
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    box-sizing: border-box;
+}
+header  {
+    background-color: black;
+    color: antiquewhite;
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+    text-align: left;   
+}
+
+/* header  {
+    background-color: black;
+    color: antiquewhite;
+    font-size: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+} */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+/* logo whatsapp */
+
+/* .logo_whatsapp {
+    height: 8rem;
+    width: 8rem;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
+
+.img_whatsapp {
+    width: 100%;
+} */
+
+
+@media screen and (min-width: 768px) {
+    html {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        background-color: blue;
+    }
+}
+
+/* 
+header  {
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;   
+}
+
+.iframe {
+    width: 400px;
+    height:300px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+img {
+    display: inline-block;
+}
+
+.img {
+    height: 300px;
+    display: block;
+}
+
+.img_local {
+    height: 300px;
+}
+
+.logo {
+    width: 10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 150px;
+    margin-top: 3px;
+}
+
+.container {
+    width: 100%;
+    display: inline-block;
+}
+ */
+/* logo whatsapp */
+/* 
+.logo_whatsapp {
+    height: 8rem;
+    width: 8rem;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
+
+.logo_redes {
+    width: 100%;
+    display: inline-block;
+}
+
+.img_whatsapp {
+    width: 100%;
+}
+
+.img_redes {
+    height: 3rem;
+    width: 3rem;
+}
+
+.body {
+    width: 100%;
+    display: inline-block;
+    background-color: lightgrey;
+}
+
+.img_banner {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+.articleAnuncios {
+    width: 15%;
+    font-size: 12px;
+    border: 3px double black;
+    padding: 12px;
+    background-color: darkgray;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%; 
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+section article h4 {
+    font-size: 20px;
+
+}
+
+.articleNovedades img {
+    text-align: right;
+}
+
+.articleNovedades p {
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.destacados, .nuevosIngresos {
+    font-size: 15px;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+footer div {
+    display: inline-block;
+    
+}
+
+footer div li {
+    display: block;
+}
+
+.redesSociales h3 {
+    text-align: left;
+}
+
+.acerca {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.redesSociales {
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 100px;
+} */
