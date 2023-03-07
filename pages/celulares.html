@@ -1,131 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CeluMania | Celulares</title>
-    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <nav>
-                <ul>
-                    <li class="logo" id="inicio"><a href="../index.html"><img src="../img/logo celumania.jpg" alt="logo celumania"></a></li>
-                    <li><a href="./celulares.html">Celulares</a></li>
-                    <li><a href="./accesorios.html">Accesorios</a></li>
-                    <li><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-xs">
+                    <a class="logo" id="inicio" href="/index.html"><img src="../img/logo celumania.jpg"
+                            alt="logo celumania"></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="./celulares.html">Celulares</a></li>
+                        <li class="nav-item"><a href="./accesorios.html">Accesorios</a></li>
+                        <li class="nav-item"><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
-    <div class="logo_whatsapp">
-        <img src="../img/WhatsApp-logo.png" alt="logo Whatsapp" class="img_whatsapp">
+    <div class="logo-whatsapp">
+        <img src="../img/WhatsApp-logo.png" alt="logo Whatsapp" class="img-whatsapp">
     </div>
 
     <main>
 
         <h2>CELULARES EN STOCK</h2>
 
-        <section>
-            <article>
-                <img src="../img/iPhone 14 pro max.png" class="img" alt="iPhone 14 pro max">
-                <h3>iPhone 14 pro max</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 1400</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 14 pro.png" class="img" alt="iPhone 14 pro">
-                <h3>iPhone 14 pro</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus voluptates aliquid incidunt voluptate. Quaerat pariatur beatae fugit quisquam sapiente. Ipsum eaque harum mollitia qui perspiciatis beatae doloremque necessitatibus consequuntur.</p>
-                <p>USD 1300</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 14 celeste.jpg" class="img"" alt="iPhone 14">
-                <h3>iPhone 14</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus facere nihil magnam hic iure reiciendis nisi maiores vero adipisci tempora, soluta laborum id repellendus! Voluptatem nostrum a quas eos fugit?</p>
-                <p>USD 1200</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 14 pro max.png" class="img" alt="iPhone 14 pro max">
+                    <h3>iPhone 14 pro max</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 1400</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 14 pro.png" class="img" alt="iPhone 14 pro">
+                    <h3>iPhone 14 pro</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus voluptates aliquid
+                        incidunt voluptate. Quaerat pariatur beatae fugit quisquam sapiente. Ipsum eaque harum mollitia
+                        qui
+                        perspiciatis beatae doloremque necessitatibus consequuntur.</p>
+                    <p>USD 1300</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 14 celeste.jpg" class="img"" alt=" iPhone 14">
+                    <h3>iPhone 14</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus facere nihil magnam hic
+                        iure
+                        reiciendis nisi maiores vero adipisci tempora, soluta laborum id repellendus! Voluptatem nostrum
+                        a
+                        quas eos fugit?</p>
+                    <p>USD 1200</p>
+                </article>
+            </div>
+        </section>
+        </div>
+
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 13 pro max.png" class="img" alt="iPhone 13 pro max">
+                    <h3>iPhone 13 pro max</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum beatae, illo voluptas omnis
+                        doloremque nemo minima itaque aperiam facilis, delectus sapiente odio harum? Eum quae laborum
+                        qui
+                        cumque sit.</p>
+                    <p>USD 1100</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 13 pro verde.png" class="img" alt=" iPhone 13 pro">
+                    <h3>iPhone 13 pro</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quo! Exercitationem natus
+                        tempora impedit dicta pariatur dignissimos, quam debitis nostrum culpa eaque nisi ea nam
+                        repellat
+                        odio totam veniam maiores?</p>
+                    <p>USD 1050</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 13.png" class="img" alt="iPhone 13">
+                    <h3>iPhone 13</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima culpa eveniet in maiores
+                        praesentium. Perspiciatis temporibus iusto sequi debitis, veritatis, molestias consequuntur sint
+                        vel
+                        commodi in similique quod quos!</p>
+                    <p>USD 1000</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <article> 
-                <img src="../img/iPhone 13 pro max.png" class="img" alt="iPhone 13 pro max">
-                <h3>iPhone 13 pro max</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum beatae, illo voluptas omnis doloremque nemo minima itaque aperiam facilis, delectus sapiente odio harum? Eum quae laborum qui cumque sit.</p>
-                <p>USD 1100</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 13 pro verde.png" class="img" alt=" iPhone 13 pro">
-                <h3>iPhone 13 pro</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quo! Exercitationem natus tempora impedit dicta pariatur dignissimos, quam debitis nostrum culpa eaque nisi ea nam repellat odio totam veniam maiores?</p>
-                <p>USD 1050</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 13.png" class="img" alt="iPhone 13">
-                <h3>iPhone 13</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima culpa eveniet in maiores praesentium. Perspiciatis temporibus iusto sequi debitis, veritatis, molestias consequuntur sint vel commodi in similique quod quos!</p>
-                <p>USD 1000</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 12 pro.png" class="img" alt="iPhone 12 pro">
+                    <h3>iPhone 12 pro</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor laboriosam architecto ea ad
+                        quia deserunt, esse harum similique hic. Provident dicta vero tenetur magni perferendis minima
+                        cumque fugit blanditiis.</p>
+                    <p>USD 900</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iphone 12.jpg" class="img" alt="iPhone 12">
+                    <h3>iPhone 12</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem id, nemo deleniti
+                        aspernatur illo magnam incidunt illum eveniet mollitia nostrum repudiandae architecto alias
+                        ipsum
+                        dicta doloremque velit praesentium voluptatibus.</p>
+                    <p>USD 850</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 12 mini.png" class="img" alt="iPhone 12 mini">
+                    <h3>iPhone 12 mini</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium culpa iusto pariatur
+                        fugit
+                        possimus? Itaque alias, inventore quam perspiciatis laborum minus quo, pariatur molestiae eum
+                        voluptates ea. Sit, quia.</p>
+                    <p>USD 800</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <article>
-                <img src="../img/iPhone 12 pro.png" class="img" alt="iPhone 12 pro">
-                <h3>iPhone 12 pro</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor laboriosam architecto ea ad quia deserunt, esse harum similique hic. Provident dicta vero tenetur magni perferendis minima cumque fugit blanditiis.</p>
-                <p>USD 900</p>
-            </article>
-            <article>
-                <img src="../img/iphone 12.jpg" class="img" alt="iPhone 12">
-                <h3>iPhone 12</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem id, nemo deleniti aspernatur illo magnam incidunt illum eveniet mollitia nostrum repudiandae architecto alias ipsum dicta doloremque velit praesentium voluptatibus.</p>
-                <p>USD 850</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 12 mini.png" class="img" alt="iPhone 12 mini">
-                <h3>iPhone 12 mini</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium culpa iusto pariatur fugit possimus? Itaque alias, inventore quam perspiciatis laborum minus quo, pariatur molestiae eum voluptates ea. Sit, quia.</p>
-                <p>USD 800</p>
-            </article>
-        </section>
-
-        <section>
-            <article>
-                <img src="../img/iPhone 11 pro max.jpg" class="img" alt="iPhone 11 pro max">
-                <h3>iPhone 11 pro max</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam eos totam facere. Eos id est cum aliquam quasi quia officia beatae, consequuntur quibusdam nam rem, doloribus voluptatum dolor fugiat!</p>
-                <p>USD 700</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 11 pro.jpg" class="img" alt="iPhone 11 pro">
-                <h3>iPhone 11 pro</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis culpa ea minima doloremque mollitia nobis eaque quibusdam, qui deserunt ab necessitatibus consectetur nostrum incidunt accusantium voluptates assumenda et autem?</p>
-                <p>USD 600</p>
-            </article>
-            <article>
-                <img src="../img/iPhone 11.png" class="img" alt="iPhone 11">
-                <h3>iPhone 11</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rerum repellendus maxime odit. Laboriosam qui praesentium dolor ab optio quae sint totam quod aliquid voluptatem, dolores temporibus veritatis magnam officiis.</p>
-                <p>USD 550</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 11 pro max.jpg" class="img" alt="iPhone 11 pro max">
+                    <h3>iPhone 11 pro max</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam eos totam facere. Eos id
+                        est
+                        cum aliquam quasi quia officia beatae, consequuntur quibusdam nam rem, doloribus voluptatum
+                        dolor
+                        fugiat!</p>
+                    <p>USD 700</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 11 pro.jpg" class="img" alt="iPhone 11 pro">
+                    <h3>iPhone 11 pro</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis culpa ea minima
+                        doloremque mollitia nobis eaque quibusdam, qui deserunt ab necessitatibus consectetur nostrum
+                        incidunt accusantium voluptates assumenda et autem?</p>
+                    <p>USD 600</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/iPhone 11.png" class="img" alt="iPhone 11">
+                    <h3>iPhone 11</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rerum repellendus maxime odit.
+                        Laboriosam qui praesentium dolor ab optio quae sint totam quod aliquid voluptatem, dolores
+                        temporibus veritatis magnam officiis.</p>
+                    <p>USD 550</p>
+                </article>
+            </div>
         </section>
 
 
     </main>
 
-    <footer id="footer">
-        <span>
+    <footer id="footer" class="grid-container">
+        <span class="grid-inicio">
             <a href="#inicio">Ir arriba</a>
         </span>
-        
         <div class="acerca">
             <h3 class="acerca">Acerca de</h3>
             <ul class="acerca">
@@ -133,16 +195,19 @@
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
-        
-        <div class="redesSociales">
-            <h3 class="redesSociales">Redes Sociales</h3>
-            <ul class="redesSociales">
-                <li class="img_redes"><a href="https://es-la.facebook.com/" target="blank"><img src="../img/logo facebook.jpg" alt="facebook" class="logo_redes"></a></li>
-                <li class="img_redes"></a><a href="https://www.instagram.com/" target="blank"><img src="../img/logo instagram.jpg" alt="instagram" class="logo_redes"></a></li>
+        <div class="redes-sociales">
+            <h3 class="redes-sociales">Redes Sociales</h3>
+            <ul class="redes-sociales">
+                <li class="img-redes"><a href="https://es-la.facebook.com/" target="blank"><img
+                            src="../img/logo facebook.jpg" alt="facebook" class="logo-redes"></a></li>
+                <li class="img-redes"></a><a href="https://www.instagram.com/" target="blank"><img
+                            src="../img/logo instagram.jpg" alt="instagram" class="logo-redes"></a></li>
             </ul>
         </div>
     </footer>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

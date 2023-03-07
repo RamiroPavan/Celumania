@@ -1,116 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CeluMania | Inicio</title>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <nav>
-                <ul>
-                    <li class="logo" id="inicio"><a href="./index.html"><img src="./img/logo celumania.jpg" alt="logo celumania"></a></li>
-                    <li><a href="./pages/celulares.html">Celulares</a></li>
-                    <li><a href="./pages/accesorios.html">Accesorios</a></li>
-                    <li><a href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-xs">
+                    <a class="logo" id="inicio" href="./index.html"><img src="../img/logo celumania.jpg"
+                            alt="logo celumania"></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="./pages/celulares.html">Celulares</a></li>
+                        <li class="nav-item"><a href="./pages/accesorios.html">Accesorios</a></li>
+                        <li class="nav-item"><a href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
-    <div class="logo_whatsapp">
-        <img src="./img/WhatsApp-logo.png" alt="logo Whatsapp" class="img_whatsapp">
+    <div class="logo-whatsapp">
+        <img src="./img/WhatsApp-logo.png" alt="logo Whatsapp" class="img-whatsapp">
     </div>
-    
+
     <main>
         <div class="body">
-            <img src="./img/Banner.jpg" data-deferred="1" jsaction="load:XAeZkd;" jsname="HiaYvf" class="img_banner" &amp; Mobile Accessories | HYPHEN data-w="824" data-h="356" data-iml="3429.600000023842"  data-atf="true" alt="celus y accesorios">
-
+            <img src="./img/Banner.jpg" data-deferred="1" jsaction="load:XAeZkd;" jsname="HiaYvf" class="img_banner"
+                &amp; Mobile Accessories | HYPHEN data-w="824" data-h="356" data-iml="3429.600000023842" data-atf="true"
+                alt="celus y accesorios">
         </div>
-        
-        <section>
-            <article class="articleAnuncios">
-                <h3>PRODUCTOS ORIGINALES</h3>
-                <P>Distribuidores oficiales</P>
-            </article>
-            <article class="articleAnuncios">
-                <h3>OFERTAS Y PROMOCIONES</h3>
-                <p>Suscribite a nuestro newsletter</p>
-            </article>
-            <article class="articleAnuncios">
-                <h3>ENVIOS A TODO EL PAIS</h3>
-                <p>Si sos de CABA recibís en el día</p>
-            </article>
-        </section>
-        
-        <section>
-            <article class="articleNovedades">
-                <h4 class="articleNovedades">CELUS EN DESCUENTO</h4>
-                <img src="./img/iphone 12.jpg" alt="iPhone 12 mini" class="img">
-                <p>El iPhone 12 cuenta con un diseño renovado. Ofrece una pantalla de 6,1 pulgadas, potente procesador A14 Bionic, y cámaras traseras duales de 12 MP. Además, cuenta con iOS 14, soporte 5G y opciones de almacenamiento desde 64 GB hasta 256 GB.</p>
-            </article>
-            <article class="articleNovedades">    
-                <h4 class="articleNovedades">PROMOS 2x1</h4>
-                <img src="./img/cases.jpg" alt="Silicone Cases" class="img">
-                <p>Compra 1 funda y lleva otra de igual o menor valor GRATIS.</p>
-            </article>
-            <article class="articleNovedades">
-                <h4 class="articleNovedades">PROTECCION PARA TU IPHONE</h4>
-                <img src="./img/protector camara.jpg" alt="Camera glass protector" class="img">
-                <p>Preserva la calidad de tu cámara. Protege tu cámara con nuestro vidrio templado resistente a golpes y arañazos.</p>
-            </article>
+
+        <section class="container-fluid">
+            <div class="row div-anuncios">
+                <article class="article-anuncios col-xl-4 col-md-6">
+                    <h3>PRODUCTOS ORIGINALES</h3>
+                    <P>Distribuidores oficiales</P>
+                </article>
+                <article class="article-anuncios col-xl-4 col-md-6">
+                    <h3>OFERTAS Y PROMOCIONES</h3>
+                    <p>Suscribite a nuestro newsletter</p>
+                </article>
+                <article class="article-anuncios col-xl-4 col-md-6">
+                    <h3>ENVIOS A TODO EL PAIS</h3>
+                    <p>Si sos de CABA recibís en el día</p>
+                </article>
+            </div>
         </section>
 
-        <section class="destacados">
-            <h2>DESTACADOS</h2>
-            <article>
-                <img src="./img/AirPods Pro 2da.jpg" class="img" alt="Airpods 2da generacion">
-                <p>AirPods Pro (2da generacion)</p>
-            </article>
-            <article>
-                <img src="./img/iPhone 13 pro verde.png" class="img" alt="iPhone 13 pro verde">
-                <p>iPhone 13 Pro (256 GB)</p>
-            </article>
-            <article>
-                <img src="./img/Adaptador 20W.jpg" class="img" alt="Adaptador 20W">
-                <p>Adaptador de carga rapida 20W USB-C</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <h4 class="article-novedades">CELUS EN DESCUENTO</h4>
+                    <img src="./img/iphone 12.jpg" alt="iPhone 12 mini" class="img">
+                    <p>El iPhone 12 cuenta con un diseño renovado. Ofrece una pantalla de 6,1 pulgadas, potente
+                        procesador
+                        A14 Bionic, y cámaras traseras duales de 12 MP. Además, cuenta con iOS 14, soporte 5G y opciones
+                        de
+                        almacenamiento desde 64 GB hasta 256 GB.</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <h4 class="article-novedades">PROMOS 2x1</h4>
+                    <img src="./img/cases.jpg" alt="Silicone Cases" class="img">
+                    <p>Compra 1 funda y lleva otra de igual o menor valor GRATIS.</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <h4 class="article-novedades">PROTECCION PARA TU IPHONE</h4>
+                    <img src="./img/protector camara.jpg" alt="Camera glass protector" class="img">
+                    <p>Preserva la calidad de tu cámara. Protege tu cámara con nuestro vidrio templado resistente a
+                        golpes y
+                        arañazos.</p>
+                </article>
+            </div>
         </section>
-    
-        <section class="nuevosIngresos">
-            <h2>NUEVOS INGRESOS</h2>
-            <article>
-                <img src="./img/iPhone 14 celeste.jpg" class="img" alt="iphone 14 celeste">
-                <p><b>iPhone 14</b> - El iPhone 14 viene con el sistema de dos cámaras más impresionante en un iPhone, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.</p>
-            </article>
-            <article>
-                <img src="./img/AirTag.png" class="img" alt="AirTag">
-                <p><b>AirTag</b> es una manera fácil de realizar un seguimiento de sus cosas. Adjunte uno a sus llaves, deslice otro en su mochila. Y así, están en su radar en la aplicación Find My.</p>
-            </article>
-            <article>
-                <img src="./img/Funda iPhone 14.png" class="img" alt="Funda iPhone 14">
-                <p>Funda Silicone Case Para iPhone 14 - protege tu iPhone</p>
-            </article>
+
+        <section class="destacados container-fluid">
+            <div class="row">
+                <h2>DESTACADOS</h2>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="./img/AirPods Pro 2da.jpg" class="img" alt="Airpods 2da generacion">
+                    <p>AirPods Pro (2da generacion)</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="./img/iPhone 13 pro verde.png" class="img" alt="iPhone 13 pro verde">
+                    <p>iPhone 13 Pro (256 GB)</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="./img/Adaptador 20W.jpg" class="img" alt="Adaptador 20W">
+                    <p>Adaptador de carga rapida 20W USB-C</p>
+                </article>
+            </div>
         </section>
-    
+
+        <section class="nuevos-ingresos container-fluid">
+            <div class="row">
+                <h2>NUEVOS INGRESOS</h2>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="./img/iPhone 14 celeste.jpg" class="img" alt="iphone 14 celeste">
+                    <p><b>iPhone 14</b> - El iPhone 14 viene con el sistema de dos cámaras más impresionante en un
+                        iPhone,
+                        para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una
+                        funcionalidad de seguridad que salva vidas.</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="./img/AirTag.png" class="img" alt="AirTag">
+                    <p><b>AirTag</b> es una manera fácil de realizar un seguimiento de sus cosas. Adjunte uno a sus
+                        llaves,
+                        deslice otro en su mochila. Y así, están en su radar en la aplicación Find My.</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="./img/Funda iPhone 14.png" class="img" alt="Funda iPhone 14">
+                    <p>Funda Silicone Case Para iPhone 14 - protege tu iPhone</p>
+                </article>
+            </div>
+        </section>
+
     </main>
-    
-    
 
 
-    <footer id="footer">
-        <span>
+
+
+    <footer id="footer" class="grid-container">
+        <span class="grid-inicio">
             <a href="#inicio">Ir arriba</a>
         </span>
-        
+
         <div class="acerca">
             <h3 class="acerca">Acerca de</h3>
             <ul class="acerca">
@@ -118,16 +157,21 @@
                 <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
         </div>
-        
-        <div class="redesSociales">
-            <h3 class="redesSociales">Redes Sociales</h3>
-            <ul class="redesSociales">
-                <li class="img_redes"><a href="https://es-la.facebook.com/" target="blank"><img src="./img/logo facebook.jpg" alt="facebook" class="logo_redes"></a></li>
-                <li class="img_redes"></a><a href="https://www.instagram.com/" target="blank"><img src="./img/logo instagram.jpg" alt="instagram" class="logo_redes"></a></li>
+
+        <div class="redes-sociales grid-div">
+            <h3 class="redes-sociales">Redes Sociales</h3>
+            <ul class="redes-sociales">
+                <li class="img-redes"><a href="https://es-la.facebook.com/" target="blank"><img
+                            src="./img/logo facebook.jpg" alt="facebook" class="logo-redes"></a></li>
+                <li class="img-redes"></a><a href="https://www.instagram.com/" target="blank"><img
+                            src="./img/logo instagram.jpg" alt="instagram" class="logo-redes"></a></li>
             </ul>
         </div>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

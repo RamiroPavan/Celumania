@@ -1,111 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CeluMania | Accesorios</title>
-    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <nav>
-                <ul>
-                    <li class="logo" id="inicio"><a href="../index.html"><img src="../img/logo celumania.jpg" alt="logo celumania"></a></li>
-                    <li><a href="./celulares.html">Celulares</a></li>
-                    <li><a href="./accesorios.html">Accesorios</a></li>
-                    <li><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-xs">
+                    <a class="logo" id="inicio" href="/index.html"><img src="../img/logo celumania.jpg"
+                            alt="logo celumania"></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="./celulares.html">Celulares</a></li>
+                        <li class="nav-item"><a href="./accesorios.html">Accesorios</a></li>
+                        <li class="nav-item"><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
-    <div class="logo_whatsapp">
-        <img src="../img/WhatsApp-logo.png" alt="logo Whatsapp" class="img_whatsapp">
+    <div class="logo-whatsapp">
+        <img src="../img/WhatsApp-logo.png" alt="logo Whatsapp" class="img-whatsapp">
     </div>
 
     <main>
 
         <h2>ACCESORIOS EN STOCK</h2>
 
-        <section>
-            <article>
-                <img src="../img/Adaptador 20W.jpg" class="img" alt="adaptador 20W">
-                <h3>Adaptador de carga rapida de 20W</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 20</p>
-            </article>
-            <article>
-                <img src="../img/AirPods Pro 2da.jpg" class="img" alt="AirPods Pro 2da generacion">
-                <h3>AirPods Pro 2da generacion</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 300</p>
-            </article>
-            <article>
-                <img src="../img/AirTag.png" class="img" alt="AirTag">
-                <h3>AirTag</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 19</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/Adaptador 20W.jpg" class="img" alt="adaptador 20W">
+                    <h3>Adaptador de carga rapida de 20W</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 20</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/AirPods Pro 2da.jpg" class="img" alt="AirPods Pro 2da generacion">
+                    <h3>AirPods Pro 2da generacion</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 300</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/AirTag.png" class="img" alt="AirTag">
+                    <h3>AirTag</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 19</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <article>
-                <img src="../img/cable USB-C.jpg" class="img" alt="Cable USB-C">
-                <h3>Cable USB-C de carga rapida</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 19</p>
-            </article>
-            <article>
-                <img src="../img/cable USB.jpg" class="img" alt="Cable USB">
-                <h3>Cable USB</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 12</p>
-            </article>
-            <article>
-                <img src="../img/Funda iPhone 14.png" class="img" alt="Fundas iPhone">
-                <h3>Fundas para todos los modelos de iPhone - al mismo precio!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 10</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/cable USB-C.jpg" class="img" alt="Cable USB-C">
+                    <h3>Cable USB-C de carga rapida</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 19</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/cable USB.jpg" class="img" alt="Cable USB">
+                    <h3>Cable USB</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 12</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/Funda iPhone 14.png" class="img" alt="Fundas iPhone">
+                    <h3>Fundas para todos los modelos de iPhone - al mismo precio!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 10</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <article>
-                <img src="../img/protector camara.jpg" class="img" alt="Templado Camara">
-                <h3>Templado Camara para todos los modelos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 12</p>
-            </article>
-            <article>
-                <img src="../img/vidrio templado pantalla.jpg" class="img" alt="Templado Pantalla">
-                <h3>Templado Pantalla para todos los modelos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 8</p>
-            </article>
-            <article>
-                <img src="../img/EarPods.jpg" class="img" alt="EarPods">
-                <h3>EarPods</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit commodi veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam, laudantium beatae corrupti!</p>
-                <p>USD 120</p>
-            </article>
+        <section class="container-fluid">
+            <div class="row">
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/protector camara.jpg" class="img" alt="Templado Camara">
+                    <h3>Templado Camara para todos los modelos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 12</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/vidrio templado pantalla.jpg" class="img" alt="Templado Pantalla">
+                    <h3>Templado Pantalla para todos los modelos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 8</p>
+                </article>
+                <article class="article-novedades col-xl-4 col-md-6">
+                    <img src="../img/EarPods.jpg" class="img" alt="EarPods">
+                    <h3>EarPods</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
+                        commodi
+                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
+                        laudantium beatae corrupti!</p>
+                    <p>USD 120</p>
+                </article>
+            </div>
         </section>
 
     </main>
-
-
-
-    <footer id="footer">
-        <span>
+    <footer id="footer" class="grid-container">
+        <span class="grid-inicio">
             <a href="#inicio">Ir arriba</a>
         </span>
-        
         <div class="acerca">
             <h3 class="acerca">Acerca de</h3>
             <ul class="acerca">
@@ -113,15 +161,19 @@
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
-        
-        <div class="redesSociales">
-            <h3 class="redesSociales">Redes Sociales</h3>
-            <ul class="redesSociales">
-                <li class="img_redes"><a href="https://es-la.facebook.com/" target="blank"><img src="../img/logo facebook.jpg" alt="facebook" class="logo_redes"></a></li>
-                <li class="img_redes"></a><a href="https://www.instagram.com/" target="blank"><img src="../img/logo instagram.jpg" alt="instagram" class="logo_redes"></a></li>
+        <div class="redes-sociales">
+            <h3 class="redes-sociales">Redes Sociales</h3>
+            <ul class="redes-sociales">
+                <li class="img-redes"><a href="https://es-la.facebook.com/" target="blank"><img
+                            src="../img/logo facebook.jpg" alt="facebook" class="logo-redes"></a></li>
+                <li class="img-redes"></a><a href="https://www.instagram.com/" target="blank"><img
+                            src="../img/logo instagram.jpg" alt="instagram" class="logo-redes"></a></li>
             </ul>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
