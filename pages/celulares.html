@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CeluRama - Tienda de celulares y accesorios - Celulares">
+    <meta name="keywords" content="Celulares, iPhone, iPhones, iPhone 11, iPhone 12, iPhone 13, iPhone 14, Fundas, Cargadores, Vidrios, Tienda de Accesorios, Tienda de Celulares">
     <title>CeluMania | Celulares</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +16,9 @@
     <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -25,7 +29,7 @@
             <nav class="navbar navbar-expand-md">
                 <div class="container-xs">
                     <a class="logo" id="inicio" href="https://ramiropavan.github.io/Celumania/"><img src="../img/logo celumania.jpg"
-                            alt="logo celumania"></a>
+                        class="logo-celumania" alt="logo celumania"></a>
                 </div>
                 <div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -54,33 +58,23 @@
         <h2>CELULARES EN STOCK</h2>
 
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 14 pro max.png" class="img" alt="iPhone 14 pro max">
                     <h3>iPhone 14 pro max</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae sit odit
-                        commodi
-                        veniam facilis quod at quibusdam nisi nobis magnam culpa nesciunt quo non reiciendis laboriosam,
-                        laudantium beatae corrupti!</p>
+                    <p>El iPhone 14 Pro Max te permite captar detalles increíbles gracias a su cámara gran angular de 48 MP. Además, trae la Dynamic Island y una pantalla siempre activa, para que puedas interactuar con tu iPhone de una forma completamente nueva. Y viene con Detección de Choques, una funcionalidad de seguridad que pide ayuda cuando no estás en condiciones de hacerlo.</p>
                     <p>USD 1400</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 14 pro.png" class="img" alt="iPhone 14 pro">
                     <h3>iPhone 14 pro</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus voluptates aliquid
-                        incidunt voluptate. Quaerat pariatur beatae fugit quisquam sapiente. Ipsum eaque harum mollitia
-                        qui
-                        perspiciatis beatae doloremque necessitatibus consequuntur.</p>
+                    <p>El iPhone 14 Pro te permite captar detalles increíbles gracias a su cámara gran angular de 48 MP. Además, trae la Dynamic Island y una pantalla siempre activa, para que puedas interactuar con tu iPhone de una forma completamente nueva. Y viene con Detección de Choques, una funcionalidad de seguridad que pide ayuda cuando no estás en condiciones de hacerlo.</p>
                     <p>USD 1300</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 14 celeste.jpg" class="img"" alt=" iPhone 14">
                     <h3>iPhone 14</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus facere nihil magnam hic
-                        iure
-                        reiciendis nisi maiores vero adipisci tempora, soluta laborum id repellendus! Voluptatem nostrum
-                        a
-                        quas eos fugit?</p>
+                    <p>El iPhone 14 viene con el sistema de dos cámaras más impresionante en un iPhone, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.</p>
                     <p>USD 1200</p>
                 </article>
             </div>
@@ -88,94 +82,76 @@
         </div>
 
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 13 pro max.png" class="img" alt="iPhone 13 pro max">
                     <h3>iPhone 13 pro max</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum beatae, illo voluptas omnis
-                        doloremque nemo minima itaque aperiam facilis, delectus sapiente odio harum? Eum quae laborum
-                        qui
-                        cumque sit.</p>
+                    <p>El iPhone 13 Pro Max es el modelo más grande y avanzado de la serie de iPhone 13 de Apple. Cuenta con una pantalla OLED Super Retina XDR de 6.7 pulgadas, un procesador A15 Bionic de última generación, una cámara triple con lentes ultra gran angular, gran angular y teleobjetivo, además de un sensor LiDAR para mejorar la calidad de las fotos y videos en condiciones de poca luz. También tiene una batería de larga duración, conectividad 5G y viene con iOS 15 preinstalado.</p>
                     <p>USD 1100</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 13 pro verde.png" class="img" alt=" iPhone 13 pro">
                     <h3>iPhone 13 pro</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quo! Exercitationem natus
-                        tempora impedit dicta pariatur dignissimos, quam debitis nostrum culpa eaque nisi ea nam
-                        repellat
-                        odio totam veniam maiores?</p>
+                    <p>El iPhone 13 Pro es el modelo avanzado de tamaño estándar de la serie de iPhone 13 de Apple. Tiene una pantalla OLED Super Retina XDR de 6.1 pulgadas, un procesador A15 Bionic de última generación, una cámara triple con lentes ultra gran angular, gran angular y teleobjetivo, y un sensor LiDAR para mejorar la calidad de las fotos y videos en condiciones de poca luz. Además, cuenta con una batería de larga duración, conectividad 5G y viene con iOS 15 preinstalado.</p>
                     <p>USD 1050</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 13.png" class="img" alt="iPhone 13">
                     <h3>iPhone 13</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima culpa eveniet in maiores
-                        praesentium. Perspiciatis temporibus iusto sequi debitis, veritatis, molestias consequuntur sint
-                        vel
-                        commodi in similique quod quos!</p>
+                    <p>El iPhone 13 es el modelo estándar de la serie de iPhone 13 de Apple. Tiene una pantalla OLED Super Retina XDR de 6.1 pulgadas, un procesador A15 Bionic de última generación, una cámara dual con lentes gran angular y ultra gran angular, y una batería de larga duración. También cuenta con conectividad 5G, modo nocturno en todas las cámaras, y viene con iOS 15 preinstalado.
+                    </p>
                     <p>USD 1000</p>
                 </article>
             </div>
         </section>
 
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 12 pro.png" class="img" alt="iPhone 12 pro">
                     <h3>iPhone 12 pro</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor laboriosam architecto ea ad
-                        quia deserunt, esse harum similique hic. Provident dicta vero tenetur magni perferendis minima
-                        cumque fugit blanditiis.</p>
+                    <p>El iPhone 12 Pro es un teléfono inteligente de alta gama de Apple con una pantalla OLED Super Retina XDR de 6.1 pulgadas y un procesador A14 Bionic de última generación. Viene con una cámara triple con lentes gran angular, ultra gran angular y teleobjetivo, además de un sensor LiDAR para mejorar la calidad de las fotos y videos en condiciones de poca luz. También cuenta con una batería de larga duración, conectividad 5G, y está disponible en cuatro colores diferentes.
+                    </p>
                     <p>USD 900</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iphone 12.jpg" class="img" alt="iPhone 12">
                     <h3>iPhone 12</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem id, nemo deleniti
-                        aspernatur illo magnam incidunt illum eveniet mollitia nostrum repudiandae architecto alias
-                        ipsum
-                        dicta doloremque velit praesentium voluptatibus.</p>
+                    <p>El iPhone 12 es un teléfono inteligente de Apple con una pantalla OLED Super Retina XDR de 6.1 pulgadas y un procesador A14 Bionic de última generación. Viene con una cámara dual con lentes gran angular y ultra gran angular, además de una batería de larga duración y conectividad 5G. También cuenta con un diseño de borde plano y una resistencia mejorada gracias a su cubierta frontal de cerámica, y está disponible en cinco colores diferentes.
+                    </p>
                     <p>USD 850</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 12 mini.png" class="img" alt="iPhone 12 mini">
                     <h3>iPhone 12 mini</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium culpa iusto pariatur
-                        fugit
-                        possimus? Itaque alias, inventore quam perspiciatis laborum minus quo, pariatur molestiae eum
-                        voluptates ea. Sit, quia.</p>
+                    <p>El iPhone 12 mini es una versión compacta del iPhone 12 con una pantalla OLED Super Retina XDR de 5.4 pulgadas y un procesador A14 Bionic de última generación. Viene con una cámara dual con lentes gran angular y ultra gran angular, además de una batería de larga duración y conectividad 5G. También cuenta con un diseño de borde plano y está disponible en cinco colores diferentes. Es ideal para aquellos que buscan un teléfono pequeño y potente.
+                    </p>
                     <p>USD 800</p>
                 </article>
             </div>
         </section>
 
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 11 pro max.jpg" class="img" alt="iPhone 11 pro max">
                     <h3>iPhone 11 pro max</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam eos totam facere. Eos id
-                        est
-                        cum aliquam quasi quia officia beatae, consequuntur quibusdam nam rem, doloribus voluptatum
-                        dolor
-                        fugiat!</p>
+                    <p>El iPhone 11 Pro Max es la versión más grande y avanzada del iPhone 11 de Apple con una pantalla OLED Super Retina XDR de 6.5 pulgadas y un procesador A13 Bionic de última generación. Viene con una cámara triple con lentes gran angular, ultra gran angular y teleobjetivo, además de un sensor LiDAR para mejorar la calidad de las fotos y videos en condiciones de poca luz. También cuenta con una batería de larga duración, conectividad 4G LTE, y está disponible en cuatro colores diferentes.
+                    </p>
                     <p>USD 700</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 11 pro.jpg" class="img" alt="iPhone 11 pro">
                     <h3>iPhone 11 pro</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis culpa ea minima
-                        doloremque mollitia nobis eaque quibusdam, qui deserunt ab necessitatibus consectetur nostrum
-                        incidunt accusantium voluptates assumenda et autem?</p>
+                    <p>El iPhone 11 Pro es un teléfono inteligente de alta gama de Apple con una pantalla OLED Super Retina XDR de 5.8 pulgadas y un procesador A13 Bionic de última generación. Viene con una cámara triple con lentes gran angular, ultra gran angular y teleobjetivo, además de un sensor LiDAR para mejorar la calidad de las fotos y videos en condiciones de poca luz. También cuenta con una batería de larga duración, conectividad 4G LTE, y está disponible en cuatro colores diferentes.
+                    </p>
                     <p>USD 600</p>
                 </article>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="../img/iPhone 11.png" class="img" alt="iPhone 11">
                     <h3>iPhone 11</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rerum repellendus maxime odit.
-                        Laboriosam qui praesentium dolor ab optio quae sint totam quod aliquid voluptatem, dolores
-                        temporibus veritatis magnam officiis.</p>
+                    <p>El iPhone 11 es un teléfono inteligente de Apple con una pantalla LCD Liquid Retina de 6.1 pulgadas y un procesador A13 Bionic de última generación. Viene con una cámara dual con lentes gran angular y ultra gran angular, además de una batería de larga duración y conectividad 4G LTE. También cuenta con reconocimiento facial Face ID y está disponible en seis colores diferentes. Es una excelente opción para aquellos que buscan un iPhone de calidad a un precio más asequible.
+                    </p>
                     <p>USD 550</p>
                 </article>
             </div>
@@ -208,6 +184,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CeluRama - Tienda de celulares y accesorios">
+    <meta name="keywords" content="Celulares, iPhone, iPhones, Accesorios, Fundas, Vidrios Templados, Vidrios, Auriculares, Cargadores, Adaptadores, AirTag, Capital Federal, CABA, Tienda de Accesorios, Tienda de Celulares">
     <title>CeluMania | Inicio</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +16,10 @@
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- CSS -->
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- main CSS -->
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
@@ -24,7 +28,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md">
                 <div class="container-xs">
-                    <a class="logo" id="inicio" href="./index.html"><img src="./img/logo celumania.jpg"
+                    <a class="logo" id="inicio" href="./index.html"><img src="./img/logo celumania.jpg" class="logo-celumania"
                             alt="logo celumania"></a>
                 </div>
                 <div>
@@ -74,7 +78,7 @@
         </section>
 
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <article class="article-novedades col-xl-4 col-md-6">
                     <h4 class="article-novedades">CELUS EN DESCUENTO</h4>
                     <img src="./img/iphone 12.jpg" alt="iPhone 12 mini" class="img">
@@ -100,7 +104,7 @@
         </section>
 
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <h2>DESTACADOS</h2>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="./img/AirPods Pro 2da.jpg" class="img" alt="Airpods 2da generacion">
@@ -117,7 +121,7 @@
             </div>
         </section>
         <section class="container-fluid">
-            <div class="row">
+            <div data-aos="zoom-in" class="row">
                 <h2>NUEVOS INGRESOS</h2>
                 <article class="article-novedades col-xl-4 col-md-6">
                     <img src="./img/iPhone 14 celeste.jpg" class="img" alt="iphone 14 celeste">
@@ -171,6 +175,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
